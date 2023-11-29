@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    
+}
+.container{
+    width: calc(100% - 122px);
+    margin: auto;
+    
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+/*public*/
+.header{
+    background: #FFF;
+    box-shadow: 0px 5.64744px 15.2372px 0px rgba(0, 0, 0, 0.10);
+    position: sticky;
+    top: 0;
+    padding: 11px;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    gap: 6px;
+    
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo a{
+   margin: auto;
+   color: #545BE8;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;;
+   font-size: 13px; 
+   font-weight: 700;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.nav ul li{
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+   
+    
+    
+}
+.nav ul li a
+{
+    color: #101928;
+}
+.active{
+    font-weight: 700;
+}
+.boton ul
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.boton a{
+    padding: 5.354px 23.181px;
+    border-radius: 7px;
+    border: 0.412px solid #545BE8;
+}
+
+.LogIn{
+    color: #545BE8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.Register{
+    background: #545BE8;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
